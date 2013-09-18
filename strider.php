@@ -19,7 +19,8 @@
 	*/
 	include 'config.php';
 
-	$payload = file_get_contents('php://input');
+	$payload = $_POST['payload'];
+
 	$value = json_decode($payload);
 
 	$testExitcode = $value->test_results->test_exitcode;
