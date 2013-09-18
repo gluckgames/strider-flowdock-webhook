@@ -7,9 +7,9 @@ Setup
 =====
 
 Add a webhook for each project like this:
-Hook Title: Flowdock
-TargetURL for HTTP Post: http://wherever.this.file.is.hosted.com/strider.php?repo=repoName
-Shared secret for HMAC-SHA1 signatire: <doesn't matter>
+* Hook Title: Flowdock
+* TargetURL for HTTP Post: http://wherever.this.file.is.hosted.com/strider.php?repo=repoName
+* Shared secret for HMAC-SHA1 signatire: <doesn't matter>
 
 
 Define channels like this in config.php
