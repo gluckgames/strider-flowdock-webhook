@@ -50,7 +50,8 @@
 	}	
 
 	if ($testExitcode == 0) {
-		sendToFlowdock("Build ✓", $_GET['repo']);
+                // there's nothing interesting about successful build
+		// sendToFlowdock("Build ✓", $_GET['repo']);
 	} else {
 		sendToFlowdock("Build ☢", $_GET['repo']);
 	}
