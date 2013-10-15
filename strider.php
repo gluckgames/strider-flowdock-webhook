@@ -25,7 +25,6 @@
 
 	$testExitcode = $value->test_results->test_exitcode;
 	$repoUrl = $value->test_results->repo_url;
-	$commit = $value->test_results->github_commit_id;
 
 	function sendToFlowdock($text, $repo) {
 		global $flowdockChannels;
